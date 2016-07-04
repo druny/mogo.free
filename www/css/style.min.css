@@ -1486,7 +1486,7 @@ a,a:hover{text-decoration:none;color:#fff}
 .about-us .items .item:nth-child(1){background-image:url(../img/first-layer.png)}
 .about-us .items .item:nth-child(2){background-image:url(../img/second-layer.png)}
 .about-us .items .item:nth-child(3){background-image:url(../img/third-layer.png)}
-.about-us .items .item:hover .item-hover{display:block;transition:1s}
+.about-us .items .item:hover .item-hover{opacity:.9;display:block;transition:1s}
 .about-us .items .item-hover{position:absolute;left:0;bottom:0;right:0;top:0;display:none;background-image:url(../img/hover-first-layer.png);background-size:cover;background-repeat:no-repeat;text-align:center;padding-top:100px}
 .about-us .items .item-hover img{margin:auto;display:block}
 .about-us .items .item-hover a{margin-top:10px;font-size:18px;text-transform:uppercase}

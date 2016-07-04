@@ -6909,6 +6909,7 @@ a:hover {
   background-image: url('../img/third-layer.png');
 }
 .about-us .items .item:hover .item-hover {
+  opacity: .9;
   display: block;
   transition: 1s;
 }
