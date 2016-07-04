@@ -175,6 +175,7 @@ a {
 			float: left;
 			margin-right: 30px;
 			margin-bottom: 105px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			&:last-child {
 				margin-right: 0;
 			}
@@ -220,5 +221,27 @@ a {
 			}
 		}
 	}
-
+}
+.info-block {
+	width: 100%;
+	background-color: #95e1d3;
+	height: 270px;
+	margin-bottom: 110px;
+	.info-item {
+		float: left;
+		width: 20%;
+		height: 270px;
+		font-family: @main-font;
+		border-right: 1px solid #fff;
+		text-align: center;
+		color: #fff;
+		.info-number {
+			margin-top: 80px;
+			font-size: 72px;
+		}
+		.info-description {
+			font-size: 14px;
+			text-transform: uppercase;
+		}
+	}
 }
