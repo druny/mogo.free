@@ -1,3 +1,6 @@
+body {
+	overflow-x: hidden;
+}
 a {
 	text-decoration: none;
 	color: #fff;
@@ -129,6 +132,93 @@ a {
 		height: 3px;
 		background: #f44242;
 		z-index: 2;
+	}
+}
+
+.first-topic {
+	color: #000;
+	text-align: center;
+	margin-top: 90px;
+	font-family: @signature-font;
+	font-size: 24px;
+}
+.second-topic {
+	text-align: center;
+	margin-top: 21px;
+	font-size: 30px;
+	font-family: @main-font;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.line-topic {
+	width: 60px;
+	height: 3px;
+	background: #f38181;
+	margin: auto;
+	margin-bottom: 40px;
+}
+.description-topic {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	color: #999999;
+	font-size: 15px;
+	margin-bottom: 100px;
+}
+
+.about-us {
+
+	.items {
+		.item {
+			width: 31%;
+			height: 250px;
+			float: left;
+			margin-right: 30px;
+			margin-bottom: 105px;
+			&:last-child {
+				margin-right: 0;
+			}
+			&:nth-child(1) {
+				background-image: url('../img/first-layer.png');
+			}
+			&:nth-child(2) {
+				background-image: url('../img/second-layer.png');
+			}
+			&:nth-child(3) {
+				background-image: url('../img/third-layer.png');
+			}
+			&:hover .item-hover{
+				display: block;
+				transition: 1s;
+			}
+			&-hover {
+				position:absolute;
+    			left:0;
+    			bottom:0;
+    			right:0;
+    			top:0;
+				display: none;
+				background-image: url('../img/hover-first-layer.png');
+				background-size: cover;
+				background-repeat: no-repeat;
+				text-align: center;
+				padding-top: 100px;
+				& img {
+					margin: auto;
+					display: block;
+				}
+				& a {
+					margin-top: 10px;
+					font-size: 18px;
+					font-family: @main-font;
+					text-transform: uppercase;
+				}
+				&:hover {
+					display: block;
+					transform: translate(-15px, -10px);
+				}
+			}
+		}
 	}
 
 }
