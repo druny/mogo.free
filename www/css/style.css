@@ -6975,7 +6975,7 @@ a:hover {
   margin: 50px 0;
 }
 .technology {
-  margin-bottom: 5px;
+  margin-bottom: 50px;
 }
 .technology-item {
   margin-bottom: 50px;
@@ -7004,6 +7004,19 @@ a:hover {
   height: 850px;
   background: url('../img/bg-devices.png') no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-size: cover;
+}
+.devices .i-pad {
+  position: relative;
+  top: 15px;
+  left: 225px;
+}
+.devices .i-phone {
+  position: relative;
+}
+.devices .i-phone img {
+  position: absolute;
+  top: -370px;
+  left: 590px;
 }

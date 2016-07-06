@@ -33,7 +33,6 @@ a {
 }
 
 .header {
-	//height: 1000px;
 	background: url('../img/first-bg.png') no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -261,7 +260,7 @@ a {
 	
 }
 .technology {
-	margin-bottom: 5px;
+	margin-bottom: 50px;
 	&-item {
 		margin-bottom: 50px;
 		&-img {
@@ -293,6 +292,19 @@ a {
 	height: 850px;
 	background: url('../img/bg-devices.png') no-repeat;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: top;
 	background-size: cover;
+	.i-pad {
+		position: relative;
+		top: 15px;
+		left: 225px;
+	}
+	.i-phone {
+		position: relative;
+		img {
+			position: absolute;
+			top: -370px;
+			left: 590px;
+		}
+	}
 }
